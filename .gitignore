@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ppt of online course
+/edX_DSE220x/Materials/[0-9]*
+/edX_DSE220x/Assignment_*
