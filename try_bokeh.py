@@ -11,7 +11,7 @@ output_file("lines.html")
 p = figure(title="simple line example", x_axis_label='x', y_axis_label='y')
 
 # add a line renderer with legend and line thickness
-p.line(x, y, legend="Temp.", line_width=2)
+p.line(x, y, legend_label="Temp.", line_width=2)
 
 # show the results
 show(p)
