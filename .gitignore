@@ -131,3 +131,9 @@ dmypy.json
 # ppt of online course
 /edX_DSE220x/Materials/[0-9]*
 /edX_DSE220x/Assignment_*
+
+# tensorflow's saved models and logs
+/graphs/
+/handbook_on_tf/tf_logs/
+/handbook_on_tf/tmp/
+my_logreg_model.*
