@@ -1,5 +1,5 @@
 # Data-Science
-learning DS
+Notes for learning Data Science
 
 ## R for tikz
 ### Key Points
@@ -26,7 +26,7 @@ You can use R in Visual Studio Code (VS Code) for data visualization and exporti
   library(ggplot2)
   library(tikzDevice)
   p <- ggplot(mtcars, aes(wt, mpg)) + geom_point()
-  tikz("plot.tex", standAlone = TRUE)
+  tikz("plot.tex", standAlone = FALSE)
   print(p)
   dev.off()
   ```
@@ -65,7 +65,7 @@ The tikzDevice package enables exporting R plots to TikZ code for LaTeX integrat
 library(ggplot2)
 library(tikzDevice)
 p <- ggplot(mtcars, aes(wt, mpg)) + geom_point()
-tikz("plot.tex", standAlone = TRUE)
+tikz("plot.tex", standAlone = FALSE)
 print(p)
 dev.off()
 ```
