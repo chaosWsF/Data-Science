@@ -73,6 +73,11 @@ Running this in VS Code generates "plot.tex," which can be included in LaTeX doc
 
 An unexpected detail is that while plot viewing in VS Code can be enhanced with httpgd, it’s not necessary for TikZ export, simplifying the setup for the user’s workflow. This aligns with their focus on generating output files rather than interactive plot viewing.
 
+**IMPORTANT**
+
+1. tikzDevie requires LaTeX: [Issue #3](https://github.com/chaosWsF/Data-Science/issues/3)
+2. httpgd may need to compile manually: [Issue #2](https://github.com/chaosWsF/Data-Science/issues/2)
+
 #### Recommended Extensions and Setup
 For the user’s needs, the primary extension is the "R" extension from REditorSupport. Additional recommendations include:
 
